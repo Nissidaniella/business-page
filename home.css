@@ -140,7 +140,10 @@ html,body{
 #nav .butt:active:before,
 #nav .butt:active:after {
   background: rgb(95, 255, 255);
+
 }
+
+
 #tooltip > img{
 width: 50px;
   padding: 10px 10px;
