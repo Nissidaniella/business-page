@@ -21,6 +21,7 @@
 html,body{
   height: 100%;
   width: 100%;
+  
 }
 
 #nav{
@@ -207,7 +208,7 @@ width: 50px;
   display: flex;
   position: relative;
   top: 5%;
-  height: 600px;
+  height: 500px;
   background-color:rgb(0, 0, 0);
 }
 
@@ -230,7 +231,7 @@ color: rgb(255, 255, 255);
   margin-top: 20px;
   margin-left: 100px;
   font-size: 20px;
-  color: rgb(90, 88, 88);
+  color: rgb(148, 146, 146);
   font-weight: 100;
 }
 
@@ -243,7 +244,6 @@ display: flex;
   margin-left: 100px;
   height: 50px;
   width: 180px;
-  background: linear-gradient(135deg, #005eff, #ffffff, #00b7ff);
   border-radius: 25px;
   animation: animate 1.5s linear infinite;
   border: none;
@@ -254,13 +254,9 @@ display: flex;
   transition: 0.3s;
 }
 
-#lpage .button:active .display {
-  background: rgba(255, 255, 255, 0.5);
-}
 
-#lpage .button:active .display #msg {
-  -webkit-text-fill-color: #1b1b1b;
-}
+
+
 
 #lpage .button:hover {
   scale: 1.15;
@@ -303,7 +299,6 @@ display: flex;
 #lpage .button span {
   height: 100%;
   width: 100%;
-  background: inherit;
   border-radius: 25px;
 }
 
@@ -323,7 +318,7 @@ display: flex;
 
 #p2{
   background-color:rgb(2, 70, 104);
-  height: 1050px;
+  height: 1100px;
   max-width: 100%;
   
 }
@@ -333,7 +328,9 @@ padding-top: 5%;
 display: flex;
 align-items: center;
 justify-content: center;
-color:#C82E53;
+color:rgb(177, 229, 255) ;
+
+
 }
 
 #p2 h1{
@@ -341,6 +338,7 @@ color:#C82E53;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: rgb(255, 255, 255);
   }
 
 #p2 .cont1{
@@ -353,22 +351,23 @@ color:#C82E53;
 
 #p2 .cont1 p{
   text-align: center;
+  color:rgb(177, 229, 255) ;
 }
 
 #p2 .cont1 span{
-  background-color: rgba(18, 13, 6, 0.182);
+  background-color: rgb(0, 0, 0);
   border-radius: 15px;
-  margin-top: 30px;
-  height: 250px;
-  width: 300px;
+  margin-top: 120px;
+  height: 200px;
+  width: 250px;
 }
 
 #p2 .cont1 span1{
-  background-color: rgba(18, 13, 6, 0.182);
+  background-color: rgb(0, 0, 0);
   border-radius: 15px;
-  margin-top: 30px;
-  height: 250px;
-  width: 300px;
+  margin-top: 40px;
+  height: 200px;
+  width: 250px;
 }
 
 #p3{
@@ -396,17 +395,19 @@ color:#C82E53;
 #p3 h1{
   font-weight: 100;
   margin-top: 10px;
+ 
 
 }
 
 #p3 p{
   margin-top: 10px;
+  color: #ffffff;
 }
 
 #p3 ul{
   margin-top: 10px;
   margin-left: 15px;
-  color: rgb(105, 103, 103);
+  color: rgb(255, 255, 255);
 }
 
 #p3 li{
@@ -514,11 +515,12 @@ color:#C82E53;
   justify-content: center;
   height: 475px;
   background-color:rgb(0, 0, 0);
-  color:rgb(177, 229, 255) ;
+  
   
 }
 
 #p4 h6{
+  color:rgb(177, 229, 255) ;
   background-color: rgb(54, 54, 54);
   width: 70px;
   text-align: center;
@@ -533,17 +535,19 @@ color:#C82E53;
 #p4 h1{
   font-weight: 100;
   margin-top: 10px;
+  color:rgb(177, 229, 255) ;
 
 }
 
 #p4 p{
   margin-top: 10px;
+  color: rgb(255, 255, 255);
 }
 
 #p4 ul{
   margin-top: 10px;
   margin-left: 15px;
-  color: rgb(133, 132, 132);
+  color: rgb(255, 255, 255);
 }
 
 #p4 li{
@@ -646,8 +650,8 @@ color:#C82E53;
   justify-content: center;
   height: 330px;
   gap: 100px;
-  background-color: rgb(29, 32, 33);
-  color:rgb(177, 229, 255) ;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0) ;
 }
 
 #p5 h6{
@@ -691,7 +695,7 @@ color:#C82E53;
  align-items: center;
  justify-content: center;
  flex-direction: column;
- background-color: rgb(2, 70, 104);
+ background-color: rgb(245, 245, 245);
  height: 500px;
  color: #B1E5FF;
 }
@@ -712,6 +716,7 @@ color:#C82E53;
 #p6 h1{
   font-weight: 100;
   margin-top: 10px;
+  color: #000;
 
 }
 
@@ -723,7 +728,7 @@ color:#C82E53;
   padding-left: 20px;
   padding-right: 20px;
   border: 4px solid #d1c2c2;
-  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  box-shadow: 0 6px 10px rgb(0, 0, 0);
   border-radius: 10px;
   text-align: center;
   color: #fff;
@@ -831,7 +836,7 @@ color:#C82E53;
 
 
 #p8{
-  background-color: rgb(29, 32, 33);
+  background-color: rgb(0, 0, 0);
   color: #B1E5FF;
   height: 270px;
 }
@@ -932,7 +937,7 @@ color:#C82E53;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(2, 70, 104);
+  background-color: rgb(255, 255, 255);
   height: 50px;
   border-top:  solid black;
   font-size: 15px;
